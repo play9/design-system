@@ -9,6 +9,12 @@
     "build": "build-storybook"
   },
   "devDependencies": {
+    "@playnest-ui/eslint-config": "*",
+    "@playnest-ui/react": "*",
+    "@playnest-ui/tokens": "*",
+    "@playnest-ui/ts-config": "*",
+    "@storybook/addon-actions": "^7.0.10",
+    "@storybook/addon-docs": "^7.0.10",
     "@storybook/addon-essentials": "^7.0.10",
     "@storybook/addon-interactions": "^7.0.10",
     "@storybook/addon-links": "^7.0.10",
@@ -17,6 +23,7 @@
     "@storybook/react-vite": "^7.0.10",
     "@storybook/testing-library": "^0.0.14-next.2",
     "@vitejs/plugin-react": "^4.0.0",
+    "polished": "^4.2.2",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
