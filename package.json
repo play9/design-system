@@ -1,0 +1,12 @@
+{
+  "name": "design-system",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "turbo": "^1.9.3"
+  }
+}
