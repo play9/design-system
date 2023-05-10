@@ -1,5 +1,22 @@
 {
   "name": "@playnest-ui/react",
   "version": "1.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "devDependencies": {
+    "@playnest-ui/eslint-config": "*",
+    "@playnest-ui/tokens": "*",
+    "@playnest-ui/ts-config": "*",
+    "@types/react": "^18.2.6",
+    "react": "^18.2.0",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
 }

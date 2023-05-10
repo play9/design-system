@@ -1,5 +1,16 @@
 {
   "name": "@playnest-ui/tokens",
   "version": "1.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "devDependencies": {
+    "@playnest-ui/ts-config": "*",
+    "@playnest-ui/eslint-config": "*",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
 }

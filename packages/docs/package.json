@@ -2,5 +2,25 @@
   "name": "@playnest-ui/docs",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "start-storybook -p 6006",
+    "deploy-storybook": "storybook-to-ghpages",
+    "build": "build-storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.10",
+    "@storybook/addon-interactions": "^7.0.10",
+    "@storybook/addon-links": "^7.0.10",
+    "@storybook/blocks": "^7.0.10",
+    "@storybook/react": "^7.0.10",
+    "@storybook/react-vite": "^7.0.10",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@vitejs/plugin-react": "^4.0.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.10",
+    "vite": "^4.3.5"
+  }
 }
