@@ -1,33 +1,40 @@
 {
   "name": "@playnest-ui/docs",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "version": "0.0.0",
   "scripts": {
-    "dev": "start-storybook -p 6006",
-    "deploy-storybook": "storybook-to-ghpages",
-    "build": "build-storybook"
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@playnest-ui/eslint-config": "*",
-    "@playnest-ui/react": "*",
     "@playnest-ui/tokens": "*",
     "@playnest-ui/ts-config": "*",
-    "@storybook/addon-actions": "^7.0.10",
-    "@storybook/addon-docs": "^7.0.10",
-    "@storybook/addon-essentials": "^7.0.10",
-    "@storybook/addon-interactions": "^7.0.10",
-    "@storybook/addon-links": "^7.0.10",
-    "@storybook/blocks": "^7.0.10",
-    "@storybook/react": "^7.0.10",
-    "@storybook/react-vite": "^7.0.10",
+    "@storybook/addon-essentials": "^7.0.12",
+    "@storybook/addon-interactions": "^7.0.12",
+    "@storybook/addon-links": "^7.0.12",
+    "@storybook/addons": "^7.0.12",
+    "@storybook/blocks": "^7.0.12",
+    "@storybook/react": "^7.0.12",
+    "@storybook/react-vite": "^7.0.12",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@storybook/theming": "^7.0.12",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
     "@vitejs/plugin-react": "^4.0.0",
-    "polished": "^4.2.2",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "eslint-plugin-storybook": "^0.6.12",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "storybook": "^7.0.10",
-    "vite": "^4.3.5"
+    "storybook": "^7.0.12",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
   }
 }
