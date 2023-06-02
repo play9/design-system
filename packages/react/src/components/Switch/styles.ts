@@ -1,13 +1,19 @@
 import { styled } from "styled-components";
-import { colors } from "@playnest-ui/tokens";
+import { colors, radii } from "@playnest-ui/tokens";
 
-import { InputWrapper } from "../TextInput";
+import { Text } from "../Text";
 
-export const Container = styled(InputWrapper)`
+export const Wrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`;
+
+export const Container = styled.div`
   position: relative;
   display: inline-block;
   width: 60px;
-  height: 34px;
+  height: 32px;
 `;
 
 export const Span = styled.span`
@@ -20,14 +26,14 @@ export const Span = styled.span`
   background: ${colors.outline};
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  border-radius: 34px;
+  border-radius: ${radii.lg};
 
   &:before {
     position: absolute;
     content: "";
     border-radius: 50%;
-    height: 26px;
-    width: 26px;
+    height: 24px;
+    width: 24px;
     left: 4px;
     bottom: 4px;
     background: ${colors.white};
@@ -50,8 +56,12 @@ export const Switch = styled.input`
   }
 
   &:checked + ${Span}:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
+    -webkit-transform: translateX(24px);
+    -ms-transform: translateX(24px);
+    transform: translateX(24px);
   }
+`;
+
+export const Content = styled(Text)`
+  margin-left: 8px;
 `;
