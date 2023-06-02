@@ -1,11 +1,12 @@
 # Playnest Design System
 
-- [ ] Button
-- [ ] Checkbox
-- [ ] TextInput
-- [ ] Loading
+## What's still needs to be implemented
+
+- [ ] Autocomplete
+- [ ] Empty State
+- [ ] Sliders
+- [ ] Skeleton
+- [ ] Dropdown
 - [ ] Modal
-- [ ] Radio
-- [ ] Select
-- [ ] Switch
 - [ ] Tooltip
+- [ ] Radio

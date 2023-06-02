@@ -31,6 +31,18 @@ export const Quinternary: StoryObj<ButtonProps> = {
   args: { variant: "quinternary" },
 };
 
-export const Sixternary: StoryObj<ButtonProps> = {
-  args: { variant: "sixternary" },
+export const Transparent: StoryObj<ButtonProps> = {
+  args: { variant: "transparent" },
+};
+
+export const Dashed: StoryObj<ButtonProps> = {
+  args: { variant: "dashed" },
+};
+
+export const Loading: StoryObj<ButtonProps> = {
+  args: { loading: true },
+};
+
+export const Disabled: StoryObj<ButtonProps> = {
+  args: { disabled: true },
 };

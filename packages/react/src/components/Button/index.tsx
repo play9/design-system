@@ -10,10 +10,6 @@ export type ButtonVariant =
   | "tertiary"
   | "quaternary"
   | "quinternary"
-  | "sixternary"
-  | "sixternary_outline"
-  | "septenary"
-  | "octonary"
   | "transparent"
   | "dashed";
 

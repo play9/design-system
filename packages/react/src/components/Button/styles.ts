@@ -13,13 +13,9 @@ const bgVariant = {
   secondary: colors["main-orange"],
   tertiary: colors["main-pink"],
   quaternary: colors["main-purple"],
-  quinternary: colors["text-content"],
-  sixternary: colors["main-green"],
-  sixternary_outline: colors["main-purple"],
-  septenary: colors["main-purple"],
-  octonary: colors["main-purple"],
+  quinternary: colors["main-green"],
   transparent: "transparent",
-  dashed: colors["main-purple"],
+  dashed: "transparent",
 };
 
 export const Button = styled.button<ButtonProps>`
@@ -37,10 +33,16 @@ export const Button = styled.button<ButtonProps>`
     filter: opacity(0.8);
   }
 
-  &[disabled]:hover {
+  &:disabled {
     filter: grayscale(1);
     cursor: not-allowed;
   }
+
+  ${(props) =>
+    props.variant === "dashed" &&
+    css`
+      border: 1px dashed ${colors["outline"]};
+    `}
 
   ${(props) =>
     props.loading &&
