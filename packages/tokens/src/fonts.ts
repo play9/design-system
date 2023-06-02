@@ -1,3 +1,3 @@
 export const fonts = {
-  default: "Roboto, sans-serif",
+  default: "Aeonik, sans-serif",
 };
