@@ -4,6 +4,7 @@ export const colors = {
 
   error: "#F21313",
   success: "#11AD6B",
+  outline: "#D4D4D4",
 
   "main-purple": "#6611AD",
   "main-pink": "#F2137B",

@@ -4,7 +4,13 @@ import { Button, ButtonProps } from "@playnest-ui/react";
 export default {
   title: "Form/Button",
   component: Button,
-  args: { children: "Lorem ipsum" },
+  args: { variant: "primary", children: "Lorem ipsum", loading: false },
+  argTypes: {
+    variant: {
+      options: ["primary", "secondary"],
+      control: { type: "select" },
+    },
+  },
 } as Meta<ButtonProps>;
 
 export const Primary: StoryObj<ButtonProps> = {};

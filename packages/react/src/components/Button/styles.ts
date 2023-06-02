@@ -1,10 +1,11 @@
-import { styled } from "styled-components";
+import { css, styled } from "styled-components";
 import { colors, fontWeights } from "@playnest-ui/tokens";
 
 import { ButtonVariant } from "./index";
 
 type ButtonProps = {
   variant: ButtonVariant;
+  loading: boolean;
 };
 
 const bgVariant = {
@@ -40,4 +41,10 @@ export const Button = styled.button<ButtonProps>`
     filter: grayscale(1);
     cursor: not-allowed;
   }
+
+  ${(props) =>
+    props.loading &&
+    css`
+      cursor: wait;
+    `}
 `;
