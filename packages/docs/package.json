@@ -20,6 +20,7 @@
     "@storybook/addon-links": "^7.0.12",
     "@storybook/addons": "^7.0.12",
     "@storybook/blocks": "^7.0.12",
+    "@storybook/builder-vite": "^7.0.18",
     "@storybook/react": "^7.0.12",
     "@storybook/react-vite": "^7.0.12",
     "@storybook/storybook-deployer": "^2.8.16",
