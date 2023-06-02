@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { Checkbox, CheckboxProps } from "@playnest-ui/react";
 
 export default {
-  title: "General/Checkbox",
+  title: "Form/Checkbox",
   component: Checkbox,
   args: {},
 } as Meta<CheckboxProps>;

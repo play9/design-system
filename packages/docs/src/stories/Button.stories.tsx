@@ -4,7 +4,27 @@ import { Button, ButtonProps } from "@playnest-ui/react";
 export default {
   title: "Form/Button",
   component: Button,
-  args: {},
+  args: { children: "Lorem ipsum" },
 } as Meta<ButtonProps>;
 
 export const Primary: StoryObj<ButtonProps> = {};
+
+export const Secondary: StoryObj<ButtonProps> = {
+  args: { variant: "secondary" },
+};
+
+export const Tertiary: StoryObj<ButtonProps> = {
+  args: { variant: "tertiary" },
+};
+
+export const Quaternary: StoryObj<ButtonProps> = {
+  args: { variant: "quaternary" },
+};
+
+export const Quinternary: StoryObj<ButtonProps> = {
+  args: { variant: "quinternary" },
+};
+
+export const Sixternary: StoryObj<ButtonProps> = {
+  args: { variant: "sixternary" },
+};

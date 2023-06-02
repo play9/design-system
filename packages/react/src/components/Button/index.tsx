@@ -2,8 +2,23 @@ import { ButtonHTMLAttributes } from "react";
 
 import * as S from "./styles";
 
-export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {}
+export type ButtonVariant =
+  | "primary"
+  | "secondary"
+  | "tertiary"
+  | "quaternary"
+  | "quinternary"
+  | "sixternary"
+  | "sixternary_outline"
+  | "septenary"
+  | "octonary"
+  | "transparent"
+  | "dashed";
 
-export function Button(props: ButtonProps) {
-  return <S.Button {...props} />;
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: ButtonVariant;
+}
+
+export function Button({ variant = "primary", ...props }: ButtonProps) {
+  return <S.Button variant={variant} {...props} />;
 }

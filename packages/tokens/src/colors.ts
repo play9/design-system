@@ -5,11 +5,11 @@ export const colors = {
   error: "#F21313",
   success: "#11AD6B",
 
-  purple: "#6611AD",
-  pink: "#F2137B",
-  yellow: "#F29F05",
-  orange: "#F26716",
-  green: "#025159",
+  "main-purple": "#6611AD",
+  "main-pink": "#F2137B",
+  "main-yellow": "#F29F05",
+  "main-orange": "#F26716",
+  "main-green": "#025159",
 
   "bg-0": "#FFFFFF",
   "bg-100": "#F1F1F1",

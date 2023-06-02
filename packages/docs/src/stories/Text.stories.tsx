@@ -2,9 +2,9 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { Text, TextProps } from "@playnest-ui/react";
 
 export default {
-  title: "General/Text",
+  title: "Tipography/Text",
   component: Text,
-  args: {},
+  args: { children: "Lorem ipsum" },
 } as Meta<TextProps>;
 
 export const Primary: StoryObj<TextProps> = {};
