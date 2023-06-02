@@ -1,5 +1,11 @@
 import { styled } from "styled-components";
-import { colors, fontSizes, radii } from "@playnest-ui/tokens";
+import {
+  fonts,
+  colors,
+  fontSizes,
+  fontWeights,
+  radii,
+} from "@playnest-ui/tokens";
 
 import { Text } from "../Text";
 
@@ -12,6 +18,7 @@ export const Container = styled.div`
 export const Label = styled(Text).attrs({ as: "label" })`
   margin-bottom: 5px;
   font-size: ${fontSizes.md};
+  font-weight: ${fontWeights.bold};
 `;
 
 export const Input = styled.input`
@@ -21,6 +28,11 @@ export const Input = styled.input`
   color: ${colors["text-title"]};
   font-size: ${fontSizes.sm};
   border-radius: ${radii.xs};
+  font-family: ${fonts.default};
+
+  &::placeholder {
+    color: ${colors["text-placeholder"]};
+  }
 `;
 
 export const HelpContainer = styled.div``;

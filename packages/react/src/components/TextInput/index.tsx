@@ -1,20 +1,37 @@
-import { InputHTMLAttributes, ReactNode } from "react";
+import { InputHTMLAttributes, ReactNode, PropsWithChildren } from "react";
 
 import * as S from "./styles";
 
-export interface TextInputProps extends InputHTMLAttributes<HTMLInputElement> {
+export interface InputWrapperProps {
   label?: string;
   errorMsg?: string;
   help?: ReactNode;
 }
 
-export function TextInput({ label, errorMsg, help, ...props }: TextInputProps) {
+export type TextInputProps = InputHTMLAttributes<HTMLInputElement> &
+  InputWrapperProps & {};
+
+export function InputWrapper({
+  label,
+  errorMsg,
+  help,
+  children,
+  ...props
+}: PropsWithChildren<InputWrapperProps>) {
   return (
-    <S.Container>
+    <S.Container {...props}>
       {label && <S.Label>{label}</S.Label>}
-      <S.Input {...props} />
+      {children}
       {help && <S.HelpContainer>{help}</S.HelpContainer>}
       {errorMsg && <S.ErrorContainer>{errorMsg}</S.ErrorContainer>}
     </S.Container>
+  );
+}
+
+export function TextInput(props: TextInputProps) {
+  return (
+    <InputWrapper {...props}>
+      <S.Input {...props} />
+    </InputWrapper>
   );
 }

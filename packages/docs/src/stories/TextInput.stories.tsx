@@ -5,7 +5,7 @@ export default {
   title: "Form/TextInput",
   component: TextInput,
   args: {
-    label: "Lorem ipsun",
+    label: "Lorem ipsum",
     placeholder: "Lorem ipsum...",
     errorMsg: "Lorem ipsum...",
   },

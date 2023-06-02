@@ -1,8 +1,15 @@
 import { TextareaHTMLAttributes } from "react";
 
-export interface TextAreaProps
-  extends TextareaHTMLAttributes<HTMLTextAreaElement> {}
+import * as S from "./styles";
+import { InputWrapper, InputWrapperProps } from "../TextInput";
+
+export type TextAreaProps = TextareaHTMLAttributes<HTMLTextAreaElement> &
+  InputWrapperProps & {};
 
 export const TextArea = (props: TextAreaProps) => {
-  return <textarea {...props} />;
+  return (
+    <InputWrapper {...props}>
+      <S.TextArea {...props} />
+    </InputWrapper>
+  );
 };
