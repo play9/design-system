@@ -22,7 +22,15 @@ export function InputWrapper({
     <S.Container {...props}>
       {label && <S.Label>{label}</S.Label>}
       {children}
-      {help && <S.HelpContainer>{help}</S.HelpContainer>}
+      {help && (
+        <S.HelpContainer>
+          {typeof help === "string" ? (
+            <S.HelpText as="span">{help}</S.HelpText>
+          ) : (
+            help
+          )}
+        </S.HelpContainer>
+      )}
       {errorMsg && <S.ErrorContainer>{errorMsg}</S.ErrorContainer>}
     </S.Container>
   );

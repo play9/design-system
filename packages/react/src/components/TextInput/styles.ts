@@ -18,7 +18,6 @@ export const Container = styled.div`
 export const Label = styled(Text).attrs({ as: "label" })`
   margin-bottom: 5px;
   font-size: ${fontSizes.md};
-  font-weight: ${fontWeights.bold};
 `;
 
 export const Input = styled.input`
@@ -35,7 +34,14 @@ export const Input = styled.input`
   }
 `;
 
-export const HelpContainer = styled.div``;
+export const HelpContainer = styled.div`
+  margin-top: 5px;
+`;
+
+export const HelpText = styled(Text)`
+  font-size: ${fontSizes.sm};
+  color: ${colors["text-white"]};
+`;
 
 export const ErrorContainer = styled(Text)`
   margin-top: 5px;
