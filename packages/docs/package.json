@@ -1,5 +1,6 @@
 {
   "name": "@playnest-ui/docs",
+  "homepage": "https://play9.github.io/design-system/",
   "version": "0.0.0",
   "scripts": {
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
