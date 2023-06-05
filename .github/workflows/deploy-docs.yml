@@ -21,8 +21,11 @@ jobs:
 
       - run: yarn build
 
-      - name: Deploy Storybook
-        working-directory: ./packages/docs
-        run: yarn deploy-storybook --ci --existing-output-dir=storybook-static
+      - name: Deploy Storybook to GH
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: gh-pages
+          build_dir: ./packages/docs/storybook-static
+          jekyll: false
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
