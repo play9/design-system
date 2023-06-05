@@ -28,4 +28,4 @@ jobs:
           build_dir: ./packages/docs/storybook-static
           jekyll: false
         env:
-          GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
