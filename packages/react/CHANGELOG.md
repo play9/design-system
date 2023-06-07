@@ -2,6 +2,6 @@
 
 ## 1.0.0
 
-### Patch Changes
+### Major Changes
 
-- First design system release
+- First Design System implementation

@@ -2,6 +2,7 @@
   "name": "@playnest-ds/docs",
   "homepage": "https://play9.github.io/design-system/",
   "version": "0.0.0",
+  "private": true,
   "scripts": {
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "dev": "storybook dev -p 6006",
