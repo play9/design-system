@@ -1,4 +1,4 @@
-# @playnest-ui/ts-config
+# @playnest-ds/ts-config
 
 ## 1.0.0
 

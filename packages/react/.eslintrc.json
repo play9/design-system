@@ -1,3 +1,3 @@
 {
-  "extends": "@playnest-ui/eslint-config"
+  "extends": "@playnest-ds/eslint-config"
 }

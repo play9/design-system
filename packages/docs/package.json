@@ -1,5 +1,5 @@
 {
-  "name": "@playnest-ui/docs",
+  "name": "@playnest-ds/docs",
   "homepage": "https://play9.github.io/design-system/",
   "version": "0.0.0",
   "scripts": {
@@ -12,9 +12,9 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@playnest-ui/eslint-config": "*",
-    "@playnest-ui/tokens": "*",
-    "@playnest-ui/ts-config": "*",
+    "@playnest-ds/eslint-config": "*",
+    "@playnest-ds/tokens": "*",
+    "@playnest-ds/ts-config": "*",
     "@storybook/addon-essentials": "^7.0.12",
     "@storybook/addon-interactions": "^7.0.12",
     "@storybook/addon-links": "^7.0.12",

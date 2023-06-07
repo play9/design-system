@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Button, ButtonProps } from "@playnest-ui/react";
+import { Button, ButtonProps } from "@playnest-ds/react";
 
 export default {
   title: "Form/Button",

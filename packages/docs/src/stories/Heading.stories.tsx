@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Heading, HeadingProps } from "@playnest-ui/react";
+import { Heading, HeadingProps } from "@playnest-ds/react";
 
 export default {
   title: "Tipography/Heading",

@@ -1,5 +1,5 @@
 import { ButtonHTMLAttributes } from "react";
-import { colors } from "@playnest-ui/tokens";
+import { colors } from "@playnest-ds/tokens";
 
 import * as S from "./styles";
 import { Loading } from "../Loading";

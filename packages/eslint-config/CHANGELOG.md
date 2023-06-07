@@ -1,4 +1,4 @@
-# @playnest-ui/eslint-config
+# @playnest-ds/eslint-config
 
 ## 1.0.0
 

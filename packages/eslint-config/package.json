@@ -1,5 +1,5 @@
 {
-  "name": "@playnest-ui/eslint-config",
+  "name": "@playnest-ds/eslint-config",
   "version": "1.0.0",
   "private": true,
   "main": "index.js",

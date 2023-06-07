@@ -1,6 +1,6 @@
 import { HTMLAttributes } from "react";
 import styled from "styled-components";
-import { colors } from "@playnest-ui/tokens";
+import { colors } from "@playnest-ds/tokens";
 
 export interface TextProps extends HTMLAttributes<HTMLParagraphElement> {}
 

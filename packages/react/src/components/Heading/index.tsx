@@ -1,7 +1,7 @@
 import { HTMLAttributes } from "react";
 
 import { styled } from "styled-components";
-import { colors, fontWeights, fontSizes } from "@playnest-ui/tokens";
+import { colors, fontWeights, fontSizes } from "@playnest-ds/tokens";
 
 export interface HeadingProps extends HTMLAttributes<HTMLHeadingElement> {}
 

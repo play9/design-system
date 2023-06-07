@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Switch, SwitchProps } from "@playnest-ui/react";
+import { Switch, SwitchProps } from "@playnest-ds/react";
 
 export default {
   title: "Form/Switch",

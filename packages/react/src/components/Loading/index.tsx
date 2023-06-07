@@ -1,4 +1,4 @@
-import { colors } from "@playnest-ui/tokens";
+import { colors } from "@playnest-ds/tokens";
 
 import * as S from "./styles";
 

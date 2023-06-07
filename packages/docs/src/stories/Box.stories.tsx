@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Box, BoxProps } from "@playnest-ui/react";
+import { Box, BoxProps } from "@playnest-ds/react";
 
 export default {
   title: "General/Box",

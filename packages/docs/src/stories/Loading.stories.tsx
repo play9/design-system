@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Loading, LoadingProps } from "@playnest-ui/react";
+import { Loading, LoadingProps } from "@playnest-ds/react";
 
 export default {
   title: "Feedback/Loading",

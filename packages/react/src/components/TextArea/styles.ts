@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { colors, fonts, fontSizes, radii } from "@playnest-ui/tokens";
+import { colors, fonts, fontSizes, radii } from "@playnest-ds/tokens";
 
 export const TextArea = styled.textarea`
   font-family: ${fonts.default};

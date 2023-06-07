@@ -1,5 +1,5 @@
 import { css, styled } from "styled-components";
-import { colors, fontWeights } from "@playnest-ui/tokens";
+import { colors, fontWeights } from "@playnest-ds/tokens";
 
 import { ButtonVariant } from "./index";
 

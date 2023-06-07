@@ -1,4 +1,4 @@
-# @playnest-ui/tokens
+# @playnest-ds/tokens
 
 ## 1.0.0
 

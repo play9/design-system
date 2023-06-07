@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { TextArea, TextAreaProps } from "@playnest-ui/react";
+import { TextArea, TextAreaProps } from "@playnest-ds/react";
 
 export default {
   title: "Form/TextArea",

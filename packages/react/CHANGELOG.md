@@ -1,4 +1,4 @@
-# @playnest-ui/react
+# @playnest-ds/react
 
 ## 1.0.0
 

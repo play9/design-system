@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { colors, radii } from "@playnest-ui/tokens";
+import { colors, radii } from "@playnest-ds/tokens";
 
 import { Text } from "../Text";
 

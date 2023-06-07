@@ -1,4 +1,4 @@
 {
-  "extends": "@playnest-ui/ts-config/base.json",
+  "extends": "@playnest-ds/ts-config/base.json",
   "include": ["src"]
 }

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { TextInput, TextInputProps } from "@playnest-ui/react";
+import { TextInput, TextInputProps } from "@playnest-ds/react";
 
 export default {
   title: "Form/TextInput",

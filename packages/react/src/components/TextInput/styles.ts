@@ -5,7 +5,7 @@ import {
   fontSizes,
   fontWeights,
   radii,
-} from "@playnest-ui/tokens";
+} from "@playnest-ds/tokens";
 
 import { Text } from "../Text";
 
