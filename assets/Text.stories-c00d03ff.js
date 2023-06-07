@@ -1,0 +1,2 @@
+import{T as s}from"./index-602e2fd6.js";import"./index-8db94870.js";import"./_commonjsHelpers-042e6b4d.js";import"./jsx-runtime-94f6e698.js";const c={title:"Tipography/Text",component:s,args:{children:"Lorem ipsum"}},r={};var e,o,t;r.parameters={...r.parameters,docs:{...(e=r.parameters)==null?void 0:e.docs,source:{originalSource:"{}",...(t=(o=r.parameters)==null?void 0:o.docs)==null?void 0:t.source}}};const n=["Primary"];export{r as Primary,n as __namedExportsOrder,c as default};
+//# sourceMappingURL=Text.stories-c00d03ff.js.map
